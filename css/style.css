@@ -1,23 +1,187 @@
 /* Styles for Mobile Site */
-
+@media screen and (min-width: 60em){
+    
 /* Header & Hero */
+header{
+    text-align: center;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #27628F;
+    border: #1c3c53 inset 3px;
+    margin: 0.5rem;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #000000;
+}
 
+#hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #000000 1px solid;
+    max-width: 750px;
+}
+#hero p{
+    font-weight: bold;
+    font-size: 1em;
+    border: black 1px solid;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #0000FF;
+}
+/*Body color*/
+body{
+    background-color: #254E6D;
+}
+
+/*Body color*/
+body{
+    background-color: #254E6D;
+}
 /* Projects */
-
-/* Reviews */
-
+#projects{
+    border: #4897D3 outset 3px;
+    margin: 0.5rem;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#projects h2{
+    font-size: 4em;
+}
+#projects h3{
+    font-size: 3em;
+}
+#projects p{
+    font-size: 2em;
+}
+.project img{
+    max-width: 75%;
+    border: 1px solid#000000;
+}
+.project figure{
+    text-align: center;
+    font-size: large;
+}
+    /* Reviews */
+#reviews{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#reviews h2{
+    font-size: 4em;
+    text-align: center;
+}
+#reviews h4{
+    font-style: italic;
+    font-weight: 300;
+    color: yellow;
+    text-shadow: 0px 0px 3px #ffffff, 0px 0px 5px #000000; 
+}
+.review {
+    font-size: 1.5em;
+    padding: 1em;
+    background-color: #3C7EB1;
+    border: #000000 1px ridge;
+}
 /* Footer */
+footer{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #27628F;
+    border: #1c3c53 outset 3px;
+    margin: 0.5rem;
+    text-shadow: 0px 0px 3px #ffffff, 0px 0px 5px #000000;    
+}
 
+}
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
 
     /* Header & Hero */
+header{
+    text-align: center;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #27628F;
+    border: #1c3c53 inset 3px;
+    margin: 0.5rem;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #000000;
+    
+}
+
+#hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #000000 1px solid;
+    min-width: 50%;
+}
+#hero p{
+    font-weight: bold;
+    font-size: 1em;
+    border: black 1px solid;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #0000FF;
+}
+/*Body color*/
+body{
+    background-color: #254E6D;
+}
 
     /* Projects */
-
+#projects{
+    border: #4897D3 outset 3px;
+    margin: 0.5rem;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#projects h2{
+    font-size: 4em;
+}
+#projects h3{
+    font-size: 3em;
+}
+#projects p{
+    font-size: 2em;
+}
+.project img{
+    max-width: 75%;
+    border: 1px solid#000000;
+}
+.project figure{
+    text-align: center;
+    font-size: large;
+}
     /* Reviews */
+#reviews{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#reviews h2{
+    font-size: 4em;
+    text-align: center;
+}
+#reviews h4{
+    font-style: italic;
+    font-weight: 300;
+    color: yellow;
+    text-shadow: 0px 0px 3px #ffffff, 0px 0px 5px #000000; 
+}
+.review {
+    font-size: 1.5em;
+    padding: 1em;
+    background-color: #3C7EB1;
+    border: #000000 1px ridge;
+}
 
     /* Footer */
+footer{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #27628F;
+    border: #1c3c53 outset 3px;
+    margin: 0.5rem;
+    text-shadow: 0px 0px 3px #ffffff, 0px 0px 5px #000000;    
+}
 
 }
